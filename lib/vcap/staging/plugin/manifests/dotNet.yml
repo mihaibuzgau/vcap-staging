@@ -10,4 +10,7 @@ app_servers:
 detection:
   - "web.config": true
 staged_services:
-# vim: filetype=yaml
+  - "name": "mssql"
+    "version": "*"
+  - "name": "uhurufs"
+    "version": "*"
